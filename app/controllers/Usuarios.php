@@ -109,7 +109,7 @@ class UsuarioController
 		$cantidad = $consulta->rowCount();
 
 		Flight::json([
-			'msg' => 'Registros eliminados: ' . $cantidad
+			'message' => 'Registros eliminados: ' . $cantidad
 		]);
 	}
 
